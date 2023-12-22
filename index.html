@@ -1,57 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-
-    <link rel="stylesheet" href="style.css">
+    <title>Background-image and CSS gradient</title>
+    <link rel="stylesheet" href="bg-gradient.css">
 </head>
+
 <body>
-
-    <header>
-        <h1>My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a passionate and creative web developer with a strong eye for design. I have experience in all aspects of web development, from front-end to back-end. I am also a skilled graphic designer and have a passion for creating beautiful and user-friendly websites.</p>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Website Redesign</h3>
-            <p>I recently redesigned the website for a local business. I was responsible for the entire process, from design to development. The new website is more modern and user-friendly, and it has helped the business increase its online sales.</p>
-            <img src="website-redesign.jpg" alt="Website redesign project">
-        </div>
-
-        <div class="project">
-            <h3>E-commerce App</h3>
-            <p>I developed an e-commerce app for a clothing store. The app allows customers to browse and purchase products, as well as track their orders. The app has been a huge success for the store, and it has helped them reach a wider audience.</p>
-            <img src="ecommerce-app.jpg" alt="E-commerce app project">
+    <section class="d-flex df-wrap">
+        <div class="cover-box">
+            <div class="image-area light deg-0"></div>
+            <div class="content-area d-flex df-col">
+                <h2>0 deg</h2>
+                <img src="deg.gif" alt="">
+            </div>
         </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Please feel free to contact me if you have any questions or would like to discuss a project.</p>
-        <ul>
-            <li><a href="mailto:email@example.com">email@example.com</a></li>
-            <li><a href="https://www.linkedin.com/in/example">LinkedIn</a></li>
-        </ul>
+    <section class="show-element d-flex just-center">
+        <div class="exp-box">
+            <div class="image-area dark deg-0"></div>
+            <div class="content-area">
+                <h1 class="top-title">0 deg</h1>
+            </div>
+        </div>
+        <div class="exp-box">
+            <div class="image-area light deg-45"></div>
+            <div class="content-area">
+                <h1 class="top-title">45 deg</h1>
+            </div>
+        </div>
+        <div class="exp-box">
+            <div class="image-area light deg-90"></div>
+            <div class="content-area">
+                <h1 class="top-title">90 deg</h1>
+            </div>
+        </div>
+        <div class="exp-box">
+            <div class="image-area light deg-135"></div>
+            <div class="content-area">
+                <h1 class="top-title">135 deg</h1>
+            </div>
+        </div>
+        <div class="exp-box">
+            <div class="image-area pink deg-180"></div>
+            <div class="content-area">
+                <h1 class="top-title">180 deg</h1>
+            </div>
+        </div>
     </section>
-
-    <footer>
-        <p>&copy; 2023 My Portfolio</p>
-    </footer>
-
 </body>
+
 </html>

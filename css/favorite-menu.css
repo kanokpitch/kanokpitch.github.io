@@ -1,0 +1,188 @@
+.cover-all-section .envs-box.favorite-topic h4 {
+    margin-bottom: 0px;
+    text-align: center;
+    color: #1AC596;
+    font-family: "Inter", Sans-serif;
+    font-weight: 500;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+}
+
+.cover-all-section .envs-box.intro-description {
+    column-gap: 0px;
+    text-align: center;
+    color: #20252C;
+    font-family: "Sora", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+}
+
+.cover-all-section .envs-box.intro-description>.envs-cumpai-container {
+    padding: 0px 25px 0px 25px;
+}
+
+.cover-all-section .envs-box.eggplant-description {
+    column-gap: 0px;
+    text-align: left;
+    color: #20252C;
+    font-family: "Sora", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+}
+
+.cover-all-section .envs-box.recommended-menu-title {
+    text-align: center;
+}
+
+.cover-all-section .envs-box.recommended-menu-title .envs-heading-title {
+    font-family: "Sora", Sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.2em;
+    letter-spacing: 0px;
+}
+
+.cover-all-section .envs-box.mushroom-description {
+    column-gap: 0px;
+    text-align: left;
+    color: #20252C;
+    font-family: "Sora", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+}
+
+.cover-all-section .envs-box.food-menu>.elementor-container {
+    max-width: 790px;
+}
+
+.cover-all-section .envs-box.food-menu>.elementor-container>.elementor-column>.envs-cumpai-wrap {
+    align-content: center;
+    align-items: center;
+}
+
+.cover-all-section .envs-box.food-menu:not(.elementor-motion-effects-element-type-background),
+.cover-all-section .envs-box.food-menu>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F7F4F2;
+}
+
+.cover-all-section .envs-box.food-menu {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 59px 59px 59px 59px;
+}
+
+.recommended-menu-title h3.envs-heading-title u {
+    text-decoration-color: rgb(120, 238, 206);
+}
+
+.cover-all-section .envs-box.first-menu-set>.elementor-container>.elementor-column>.envs-cumpai-wrap {
+    align-content: center;
+    align-items: center;
+}
+
+.first-menu-set img {
+    border-radius: 10%;
+}
+
+.mobile-center {
+    text-align: center;
+}
+
+.envs-spacer-inner {
+    --spacer-size: 40px;
+}
+
+.envs-spacer-inner-50 {
+    --spacer-size: 50px;
+}
+
+.cover-all-section .envs-box.papaya-description {
+    column-gap: 0px;
+    text-align: left;
+    color: #20252C;
+    font-family: "Sora", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+}
+
+.envs-cumpai-image {
+    text-align: center;
+}
+
+@media(max-width:1024px) {
+    .cover-all-section .envs-box.recommended-menu-title .envs-heading-title {
+        font-size: 32px;
+    }
+
+    .cover-all-section .envs-box.intro-description {
+        font-size: 14px;
+    }
+
+    .cover-all-section .envs-box.papaya-description {
+        font-size: 14px;
+    }
+
+    .cover-all-section .envs-box.eggplant-description {
+        font-size: 14px;
+    }
+
+    .cover-all-section .envs-box.mushroom-description {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:767px) {
+    .cover-all-section .envs-box.recommended-menu-title {
+        text-align: center;
+    }
+    .cover-all-section .envs-box.recommended-menu-title .envs-heading-title {
+        font-size: 24px;
+        line-height: 2.5rem;
+    }
+    .hidden-mobile {
+        display: none
+    }
+}
+
+@media(max-width:420px) {
+    .cover-all-section .envs-box.recommended-menu-title .envs-heading-title {
+        font-size: 24px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .hidden-tablet {
+        display: none
+    }
+}
+
+@media (min-width:1025px) and (max-width:99999px) {
+    .hidden-desktop {
+        display: none
+    }
+}

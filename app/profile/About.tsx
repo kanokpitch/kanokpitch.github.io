@@ -6,8 +6,8 @@ const About = () => {
   return (
     <div className='container-fluid d-flex flex-column align-items-center min-vh-100'>
       <p className="lead m-4">
-        I'm a full stack web developer with 13+ years of experience in web development and coding. I love to create responsive websites using ReactJS, JavaScript, HTML5, CSS3, Bootstrap, Node js, expressjs and MongoDB.
-        and  having good coding skills. I've done multiple small projects to learn basics and now doing more complex projects.
+        {`I'm a full stack web developer with 13+ years of experience in web development and coding. I love to create responsive websites using ReactJS, JavaScript, HTML5, CSS3, Bootstrap, Node js, expressjs and MongoDB.
+        and  having good coding skills. I've done multiple small projects to learn basics and now doing more complex projects.`}
       </p>
       <a href="./resume" target='_BLANK' className="btn btn-primary mt-2 custom-btn fw-bold">View My Resume</a>
       <h3 className='mt-10 pt-5 pb-2 custom-color'>Languages and tools I use:</h3>

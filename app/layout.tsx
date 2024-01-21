@@ -7,7 +7,28 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: process.env.FULL_NAME,
-  description: "Powered by React-to-Print, Next.js, Tailwind CSS",
+  description: "Powered Next.js, Tailwind CSS",
+  openGraph: {
+    // title: 'Next.js',
+    // description: 'The React Framework for the Web',
+    url: 'https://nextjs.org',
+    siteName: `Kanokpit's profile`,
+    images: [
+      {
+        url: 'https://kanokpit-yowaratch.github.io/images/cover.jpg',
+        width: 800,
+        height: 600,
+      },
+      {
+        url: 'https://kanokpit-yowaratch.github.io/images/cover.jpg',
+        width: 1800,
+        height: 1600,
+        alt: 'My custom alt',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({

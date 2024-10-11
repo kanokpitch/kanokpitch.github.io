@@ -18,15 +18,21 @@ const About = () => {
         <Image className='m-2' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react" width="35" height="35" />
         <Image className='m-2' src="https://www.cdnlogo.com/logos/n/80/next-js.svg" alt="next-js" width="35" height="35" />
         <Image className='m-2' src="https://www.cdnlogo.com/logos/a/51/angular.svg" alt="angular" width="35" height="35" />
-        <Image className='m-2' src="https://cdn.cdnlogo.com/logos/n/49/node-js.svg" alt="node-js" width="50" height="50" />
+        <Image className='m-2' src="https://cdn.cdnlogo.com/logos/n/49/node-js.svg" alt="node-js" width="60" height="50" />
         <Image className='m-2' src="https://www.cdnlogo.com/logos/n/57/nestjs.svg" alt="nestjs" width="40" height="40" />
-        <Image className='m-2' src="https://www.cdnlogo.com/logos/p/3/python.svg" alt="python" width="40" height="40" />
+        <Image className='mt-3 ml-2 mr-2' src="https://www.cdnlogo.com/logos/p/3/python.svg" alt="python" width="40" height="40" />
         <Image className='m-2' src="/images/express-js.svg" alt="express-js" width="35" height="35" />
-        <Image className='m-2' src="https://cdn.cdnlogo.com/logos/m/25/mongodb.svg" alt="mongodb" width="80" height="40" />
+        <Image className='mt-3 ml-2 mr-2' src="https://www.cdnlogo.com/logos/p/93/postgresql.svg" alt="postgresql" width="40" height="35" />
+        <Image className='mt-3 ml-2 mr-2' src="https://www.cdnlogo.com/logos/m/10/mysql.svg" alt="mysql" width="45" height="45" />
+        <Image className='m-2' src="https://cdn.cdnlogo.com/logos/m/25/mongodb.svg" alt="mongodb" width="90" height="40" />
+        <Image className='m-2' src="https://cdn.cdnlogo.com/logos/o/94/oracle.svg" alt="oracle" width="90" height="40" />
         <Image className='m-2' src="https://www.cdnlogo.com/logos/p/25/prisma.svg" alt="prisma" width="80" height="40" />
-        <FaBootstrap className='mt-3 mb-2 ml-2 mr-2' style={{ width: "35", height: "35" }} />
+        <FaBootstrap className='mt-2 ml-2 mr-2' style={{ width: "35", height: "35" }} />
+        <Image className='m-2' src="https://www.cdnlogo.com/logos/t/58/tailwindcss.svg" alt="tailwindcss" width="40" height="40" />
         <Image className='m-2' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" width="35" height="35" />
-        <Image className='m-2' src="https://cdn.cdnlogo.com/logos/g/31/github.svg" alt="github" width="50" height="25" />
+        <Image className='m-2' src="https://cdn.cdnlogo.com/logos/g/31/github.svg" alt="github" width="60" height="25" />
+        <Image className='m-2' src="https://cdnlogo.com/logos/d/41/docker.svg" alt="docker" width="40" height="40" />
+        {/* <Image className='m-2' src="/images/kubernetes.svg" alt="kubernetes" width="40" height="40" /> */}
       </p>
 
     </div>

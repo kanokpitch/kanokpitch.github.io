@@ -6,7 +6,7 @@ import { Container } from "@/components/container";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: process.env.FULL_NAME,
+  title: "Kanokpit Yowaratch", // process.env.FULL_NAME,
   description: "Powered by Next.js and Tailwind CSS",
   openGraph: {
     // title: 'Next.js',

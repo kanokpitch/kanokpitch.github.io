@@ -12,7 +12,8 @@ export default function SkillSection() {
           <span>:</span>
         </div>
         <div className="ml-4 text-zinc-700 dark:text-zinc-300">
-          {process.env.PROGRAMMING}
+          {/* {process.env.PROGRAMMING} */}
+          JavaScript, PHP, HTML, CSS, SQL, PL/SQL
         </div>
       </div>
       <div className="md:flex text-sm">
@@ -20,7 +21,8 @@ export default function SkillSection() {
           <span className="font-bold">Frameworks</span>:
         </div>
         <div className="ml-4 text-zinc-700 dark:text-zinc-300">
-          {process.env.FRAMEWORK}
+          {/* {process.env.FRAMEWORK} */}
+          Node.js, Express.js, NestJS, Next.js, React, Angular, Laravel
         </div>
       </div>
       <div className="md:flex text-sm">
@@ -28,7 +30,8 @@ export default function SkillSection() {
           <span className="font-bold">CSS Frameworks</span>:
         </div>
         <div className="ml-4 text-zinc-700 dark:text-zinc-300">
-          {process.env.CSS_FRAMEWORK}
+          {/* {process.env.CSS_FRAMEWORK} */}
+          Material UI, Tailwind CSS, Ant Design, Bootstrap
         </div>
       </div>
       <div className="md:flex text-sm">
@@ -36,7 +39,8 @@ export default function SkillSection() {
           <span className="font-bold">Databases</span>:
         </div>
         <div className="ml-4 text-zinc-700 dark:text-zinc-300">
-          {process.env.DATABASE}
+          {/* {process.env.DATABASE} */}
+          MySQL, PostgreSQL, MongoDB, Oracle, Firebase
         </div>
       </div>
       <div className="md:flex text-sm">
@@ -44,7 +48,8 @@ export default function SkillSection() {
           <span className="font-bold">DevOps & Cloud</span>:
         </div>
         <div className="ml-4 text-zinc-700 dark:text-zinc-300">
-          {process.env.DEVOPSCLOUD}
+          {/* {process.env.DEVOPSCLOUD} */}
+          Gitlab CI/CD, Linux cmd, Docker, NGINX, AWS EC2, DigitalOcean
         </div>
       </div>
       <div className="md:flex text-sm">
@@ -52,7 +57,8 @@ export default function SkillSection() {
           <span className="font-bold">Tools</span>:
         </div>
         <div className="ml-4 text-zinc-700 dark:text-zinc-300">
-          {process.env.TOOLS}
+          {/* {process.env.TOOLS} */}
+          JIRA, Postman, Docker, Git, Figma, Draw.io
         </div>
       </div>
       {/* <div className="md:flex text-sm">

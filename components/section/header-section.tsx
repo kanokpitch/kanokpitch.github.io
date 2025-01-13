@@ -9,7 +9,7 @@ type Props = {
 
 export default function HeaderSection({ usage }: Props) {
   const fullName = process.env.FULL_NAME || 'John Wick';
-  const email = process.env.EMAIL || 'John.Wick@gmail.com';
+  const email = process.env.EMAIL || 'kanokpit.y@gmail.com';
   const tel = process.env.TEL || '0989552690';
   const telAlt = process.env.TEL_ALT || '098-9552690';
   return (

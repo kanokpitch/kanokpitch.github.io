@@ -2,8 +2,8 @@
 import React from 'react'
 import { Container } from "@/components/container";
 import { Player } from '@lottiefiles/react-lottie-player';
-import About from './About';
-import Foot from './Foot';
+import Foot from './footer';
+import About from './intro';
 
 const Profile = () => {
   return (
@@ -12,17 +12,14 @@ const Profile = () => {
       <section className="p-4 min-vh-100">
         <div className='container-fluid'>
           <div className='d-sm-flex align-items-center justify-content-between'>
-            <div className='d-flex flex-column text-center align-items-center align-items-lg-center'>
-              <div className='profile-img-area rounded-full'>
-                <div className='profile-img-inner rounded-full'></div>
-              </div>
+            <div className='d-flex flex-column text-center align-items-center align-items-lg-start'>
               <h1>Hi, I am Kanokpit</h1>
               <h2 className='fw-bold custom-font'>Full Stack Developer</h2>
             </div>
 
             <div>
               <Player
-                src='./json/Animation - 1705830756435.json'
+                src='https://assets6.lottiefiles.com/packages/lf20_pwohahvd.json'
                 className="player"
                 loop
                 autoplay

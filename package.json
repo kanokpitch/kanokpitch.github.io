@@ -1,9 +1,10 @@
 {
-  "name": "react-profile-starter",
+  "name": "profile-and-resume",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev-local": "SET PORT=3001 && next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

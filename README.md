@@ -1,3 +1,3 @@
-# Profile
+# Profile & resume
 
-Profile created by Next.js
+Profile & Resume app created by Next.js

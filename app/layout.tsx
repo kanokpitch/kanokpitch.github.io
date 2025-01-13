@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: process.env.FULL_NAME,
-  description: "Powered Next.js, Tailwind CSS",
+  description: "Powered by Next.js and Tailwind CSS",
   openGraph: {
     // title: 'Next.js',
     // description: 'The React Framework for the Web',
@@ -46,9 +46,9 @@ export default function RootLayout({
         <div className="relative text-zinc-800 dark:text-zinc-200">
           <Container></Container>
 
-          <main>{children}</main>
+          <main className="mt-8">{children}</main>
 
-          <footer className="pb-1 pt-1"></footer>
+          <footer className="pb-5 pt-5"></footer>
         </div>
       </body>
     </html>

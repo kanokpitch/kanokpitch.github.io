@@ -7,7 +7,7 @@ const exp: ExperienceProps[] = [
     // head1: "Full Stack Developer (Contract)",
     company: "Freelance Remote, WFH",
     head1: "Full Stack Developer",
-    head4: "Jan 2024 - Present",
+    head4: "Apr 2020 - Present",
     bulletPoints: [
       "Designed scalable RESTful APIs with NestJS, Node.js, Express.js",
       "Use Sequelize ORM for Ouery data and convert PL/SQL in Oracle to SQL programming",
